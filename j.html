@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <script type="text/javascript">
+        window.onload = function() {
+            var dps = []; //dataPoints. 
+
+            var chart = new CanvasJS.Chart("chartContainer", {
+			animationEnabled: true,
+	        theme: "light2", // "light1", "light2", "dark1", "dark2"
+                title: {
+                    text: "Accepting DataPoints from User Input"
+                },
+                data: [{
+                    type: "column",
+					yValueFormatString: "#,##0.0#\"%\"",
+                    dataPoints: dps
+                }]
+            });
+
+            function addDataPointsAndRender() {
+                xValue = Number(document.getElementById("xValue").value);
+                yValue = Number(document.getElementById("yValue").value);
+                dps.push({
+                    label: xValue,
+                    y: yValue,
+                },
+				{
+				label: xValue1,
+                    y: yValue1
+					});
+                chart.render();
+            }
+
+            var renderButton = document.getElementById("renderButton");
+            renderButton.addEventListener("click", addDataPointsAndRender);
+        }
+    </script>
+    <script type="text/javascript" src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</head>
+
+<body>
+    X Value:
+    <input id="xValue" type="text" step="any" placeholder="Enter X-Value"> Y Value:
+    <input id="yValue" type="number" step="any" placeholder="Enter Y-Value">
+	X Value:
+    <input id="xValue1" type="text" step="any" placeholder="Enter X-Value"> Y Value:
+    <input id="yValue1" type="number" step="any" placeholder="Enter Y-Value">
+    <button id="renderButton">Add DataPoint & Render</button>
+    <div id="chartContainer" style="height: 270px; width: 100%;">
+    </div>
+</body>
+
+</html>
+

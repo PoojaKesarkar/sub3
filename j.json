@@ -1,0 +1,10 @@
+      [
+			{ y: 300878, label: "solo singing" },
+			{ y: 266455,  label: "group dance" },
+			{ y: 169709,  label: "rock mime" },
+			{ y: 158400,  label: "skit" },
+			{ y: 142503,  label: "instrumental" },
+			{ y: 101500, label: "fashion show" },
+			{ y: 97800,  label: "solo dance" },
+			{ y: 80000,  label: "group singing" }
+		]

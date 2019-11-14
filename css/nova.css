@@ -1,0 +1,81 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+	width:100%;
+	height:13%;
+    position: fixed;
+    background: purple;   
+}
+*{
+	margin:0px;
+}
+.nav-list {
+    display: flex;
+    margin-right: 2rem;
+	list-style:none;
+}
+li{
+	padding:20px;
+	
+}
+a{
+	text-decoration:none;
+	color:white;
+	font-family: 'Modak', cursive;
+	font-size: 30px;
+}
+a:hover{
+	color:red;
+}
+#welcome-section {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:black;
+	color:white;
+	
+}
+h1 {
+	margin:0px;
+	
+}
+h2{
+	margin:0px;
+}
+
+p {
+	margin:0px;
+	
+}
+#projects{
+	
+	justify-content: center;
+    padding:5px;
+	background:blue;
+	
+}
+.pics{
+	margin-top:0px;
+	width:40%;
+}
+.work{
+	margin-top:5%;
+}
+.compart{
+width:20%;
+padding:5px;
+margin-top:2%;
+}
+
+.contact{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items: center;
+	text-align:center;
+	height:80vh;
+	padding:20px;
+	background:RGB(24,63,163);
+}

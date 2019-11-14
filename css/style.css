@@ -1,0 +1,82 @@
+#main-wrapper{
+	width:500px;
+	margin: 0 auto;
+	background:white;
+	padding:5px;
+	border-radius:10px;
+	border: 2px solid #95a5a6;
+}
+.avatar{
+	width:150px;
+	text-align:center;
+	border-radius:70%;
+}
+.myform{
+	width:450px;
+	margin: 0 auto;
+}
+.inputvalues{
+	width:430px;
+	margin:0 auto;
+	padding:5px;
+}
+ul{
+	list-style: none;
+}
+#login_button{
+	margin-top:10px;
+	background-color:#27ae60;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border: 2px solid #27ae60;
+}
+#register_button{
+	margin-top:10px;
+	margin-bottom:20px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border: 2px solid #3498db;
+}
+#signup_button{
+	margin-top:10px;
+	background-color:#3498db;
+	padding:5px;
+	color:white;
+	width:100%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border: 2px solid #3498db;
+}
+#logout_button{
+	margin-top:5px;
+	background-color:#c0392b;
+	padding:5px;
+	color:white;
+	width:80px;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border: 2px solid #c0392b;
+	margin-bottom:20px;
+}
+#back_button{
+	margin-top:10px;
+	background-color:#e74c3c;
+	padding:5px;
+	color:white;
+	width:30%;
+	text-align:center;
+	font-size:18px;
+	font-weight:bold;
+	border: 2px solid #e74c3c;
+}
